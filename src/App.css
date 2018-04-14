@@ -1,0 +1,55 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.pad {
+    padding: 0 2vw 0 2vw;
+}
+
+.navbar {
+    height: 10vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex: 3;
+
+}
+
+.search {
+    flex: 1;
+
+}
+
+.body {
+    height: 80vh;
+    border: 2px solid green;
+    display: flex;
+    overflow-y: hidden;
+}
+
+.videoPlayer {
+    flex: 3;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.videoList {
+    flex: 1;
+    border: 2px solid orange;
+}
+
+.footer {
+    height: 10vh;
+    border: 2px solid yellow;
+    display: flex;
+    align-items: center;
+}
